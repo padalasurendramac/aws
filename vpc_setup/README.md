@@ -3,19 +3,19 @@
 ### Creating vpc 
 
   select vpc service from aws then clck on create vpc
-  ![image](https://user-images.githubusercontent.com/53860717/145720061-4cf016ae-4384-4961-9ad3-e1db4d622eb3.png)
+![image](https://user-images.githubusercontent.com/53860717/145720061-4cf016ae-4384-4961-9ad3-e1db4d622eb3.png)
 
 
 ### creating Internet gateway
 
   Select internet gateway from aws then click on create create internet gateway
-  ![image](https://user-images.githubusercontent.com/53860717/145720153-04d10b0c-dce8-46a5-91db-359571718333.png)
+![image](https://user-images.githubusercontent.com/53860717/145720153-04d10b0c-dce8-46a5-91db-359571718333.png)
   
   Then select the internet gateway which is created after that click on action and seclet attach vpc 
-  ![image](https://user-images.githubusercontent.com/53860717/145720417-74936d1f-e52c-493a-8ddd-d37a0b48715f.png)
+![image](https://user-images.githubusercontent.com/53860717/145720417-74936d1f-e52c-493a-8ddd-d37a0b48715f.png)
 
   next that choose the vpc which we created above
-  ![image](https://user-images.githubusercontent.com/53860717/145720458-1a4b04e8-471d-479d-af57-6c31a048750b.png)
+![image](https://user-images.githubusercontent.com/53860717/145720458-1a4b04e8-471d-479d-af57-6c31a048750b.png)
 
 ### creating subnets ( by default elb minimum requires two subnets (availability zone us-west-2a, us-west-2b, us-west-2c, us-west-2d  ) 
 
@@ -39,15 +39,15 @@
 
 ### by default one route table would be created when we provision the vpc
     like below:_
-    ![image](https://user-images.githubusercontent.com/53860717/145721202-641c3434-80ce-42ba-9b7e-bb4b9ab6ce45.png)
+![image](https://user-images.githubusercontent.com/53860717/145721202-641c3434-80ce-42ba-9b7e-bb4b9ab6ce45.png)
 
     giving the tag to default Route table to public
-    ![image](https://user-images.githubusercontent.com/53860717/145721230-382101aa-76c9-440e-bec9-f7e641cf7886.png)
+![image](https://user-images.githubusercontent.com/53860717/145721230-382101aa-76c9-440e-bec9-f7e641cf7886.png)
 
 
 ### Creating private route table
      give route name as private and choose the vpc which we created and click on create route table
-     ![image](https://user-images.githubusercontent.com/53860717/145721370-ca72ff6b-5a7d-469d-9db9-6ef8158cb598.png)
+![image](https://user-images.githubusercontent.com/53860717/145721370-ca72ff6b-5a7d-469d-9db9-6ef8158cb598.png)
 
 ### adding public subnet to public route rable like below
 ![image](https://user-images.githubusercontent.com/53860717/145721548-c7d019e9-702c-428c-a18d-cc02341c7879.png)
