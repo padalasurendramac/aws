@@ -1,0 +1,16 @@
+
+
+
+cat .aws/credentials
+
+
+
+copying from local to s3
+
+aws s3 cp /home/socrates/build-terraform s3://newtestingsurendrapadala/ --recursive
+
+
+copying from s3 to local
+
+aws s3 sync s3://newtestingsurendrapadala/ .
+
