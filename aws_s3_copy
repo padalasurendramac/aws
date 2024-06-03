@@ -14,3 +14,9 @@ copying from s3 to local
 
 aws s3 sync s3://newtestingsurendrapadala/ .
 
+list command 
+
+
+aws  s3 ls
+
+
