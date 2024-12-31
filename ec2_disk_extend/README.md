@@ -69,7 +69,7 @@
 
 # after increased root partition disk
 
-            root@bastion:~# lsblk
+            root@test:~# lsblk
             NAME    MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
             loop0     7:0    0  55.7M  1 loop /snap/core18/2829
             loop1     7:1    0  55.4M  1 loop /snap/core18/2846
@@ -82,7 +82,7 @@
             xvda    202:0    0    50G  0 disk 
             └─xvda1 202:1    0    50G  0 part /
             xvdb    202:16   0    50G  0 disk /home
-            root@bastion:~# df -Th
+            root@test:~# df -Th
             Filesystem     Type      Size  Used Avail Use% Mounted on
             udev           devtmpfs  7.9G     0  7.9G   0% /dev
             tmpfs          tmpfs     1.6G  816K  1.6G   1% /run
@@ -103,4 +103,4 @@
             tmpfs          tmpfs     1.6G     0  1.6G   0% /run/user/1058
             root@bastion:~# date
             Tue Dec 31 02:19:54 UTC 2024
-            root@bastion:~#
+            root@test:~#
